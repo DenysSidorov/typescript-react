@@ -2,7 +2,12 @@
   "compilerOptions": {
     "noImplicitAny": true, // any types
     "sourceMap": true, // for debugging
-    "target": "es5" // by default ts uses es3
+    "target": "es5", // by default ts uses es3
     "jsx": "react", // usin js in react
-  }
+    "module": "ESNext", // import/export line in ES2015
+    "allowSyntheticDefaultImports": true // ES6 modules instead CommonJS
+  },
+  "exclude": [
+    "node_modules" // disable transpiling third-party modules
+  ]
 }
