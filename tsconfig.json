@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "noImplicitAny": true,
-    "target": "es5"
+    "noImplicitAny": true, // any types
+    "sourceMap": true, // for debugging
+    "target": "es5" // by default ts uses es3
+    "jsx": "react", // usin js in react
   }
 }
