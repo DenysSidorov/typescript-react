@@ -20,10 +20,13 @@
   },
   "homepage": "https://github.com/DenysSidorov/typescript-react#readme",
   "devDependencies": {
+    "@types/jest": "^24.0.6",
     "awesome-typescript-loader": "^5.2.1",
     "css-loader": "^2.1.0",
     "http-server": "^0.11.1",
+    "jest": "^24.1.0",
     "style-loader": "^0.23.1",
+    "ts-jest": "^23.10.5",
     "tslint": "^5.12.1",
     "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.3.3",
