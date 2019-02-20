@@ -21,3 +21,9 @@ let newArr: Array<string> = ['1', '2'];
 console.log(newArr, ' === ');
 
 export default {} ;
+
+let id : number | string;
+id = "1345dgg5";
+console.log(id); // 1345dgg5
+id = 234;
+typeof id;
