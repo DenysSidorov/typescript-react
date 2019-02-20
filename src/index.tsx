@@ -4,9 +4,8 @@ import App from './components/App';
 import { sum } from './foo';
 import types from './ts-examples/types';
 
-
 render(
-    <App message="World" />,
+    <App message="World" types={types}/>,
     document.getElementById('root'),
 );
 
