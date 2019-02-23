@@ -30,7 +30,6 @@ function getName3(firstName: string, lastName: string="Иванов") {
 }
 getName3("Вася", 'M'/**/); // Вася Иванов
 
-
 // rest in params
 function addNumbers(firstNumber: number, ...numberArray: number[]): number {
     return 5;
@@ -38,8 +37,6 @@ function addNumbers(firstNumber: number, ...numberArray: number[]): number {
 
 // op has arrow function with params and return types
 let op: (x:number, y:number) => number;
-
-console.log(17);
 
 let myAdd: (x: number, y: number)=>number =
     function(x: number, y: number): number { return x+y; };
